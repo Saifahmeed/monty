@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-*mread_file - opens file and reads it
+*readMontyFile - opens file and reads it
 *@filename: file name
 *@stack: pointer to pointer of stack
 *
@@ -8,7 +8,7 @@
 */
 char *line = NULL;
 FILE *file;
-void mread_file(char *filename, stack_t **stack)
+void readMontyFile(char *filename, stack_t **stack)
 {
 	size_t len = 0;
 	int n_read;
